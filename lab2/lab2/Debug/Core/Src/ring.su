@@ -1,0 +1,8 @@
+../Core/Src/ring.c:3:6:ring_init	24	static
+../Core/Src/ring.c:11:6:ring_clear	16	static
+../Core/Src/ring.c:17:10:ring_count	16	static
+../Core/Src/ring.c:22:10:ring_free	24	static
+../Core/Src/ring.c:27:5:ring_push	24	static
+../Core/Src/ring.c:36:5:ring_pop	16	static
+../Core/Src/ring.c:44:5:ring_is_empty	16	static
+../Core/Src/ring.c:45:5:ring_is_full	16	static

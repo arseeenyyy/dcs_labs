@@ -1,0 +1,9 @@
+../Core/Src/my_gpio.c:4:12:pin_is_valid	16	static
+../Core/Src/my_gpio.c:10:17:rcc_bit_for_port	16	static
+../Core/Src/my_gpio.c:27:6:my_gpio_enable_clock	24	static
+../Core/Src/my_gpio.c:36:5:my_gpio_init	24	static
+../Core/Src/my_gpio.c:80:5:my_gpio_get_config	24	static
+../Core/Src/my_gpio.c:96:6:my_gpio_write_pin	16	static
+../Core/Src/my_gpio.c:110:9:my_gpio_read_pin	16	static
+../Core/Src/my_gpio.c:116:6:my_gpio_write_port	16	static
+../Core/Src/my_gpio.c:122:10:my_gpio_read_port	16	static

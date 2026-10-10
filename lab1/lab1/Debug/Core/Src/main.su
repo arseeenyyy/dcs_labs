@@ -1,0 +1,7 @@
+../Core/Src/main.c:65:12:anim_is_idle	4	static
+../Core/Src/main.c:67:13:anim_start	16	static
+../Core/Src/main.c:76:13:anim_tick	16	static
+../Core/Src/main.c:137:5:main	16	static
+../Core/Src/main.c:215:6:SystemClock_Config	88	static
+../Core/Src/main.c:257:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:299:6:Error_Handler	4	static,ignoring_inline_asm

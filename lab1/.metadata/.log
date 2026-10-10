@@ -1,0 +1,1059 @@
+!SESSION 2026-10-01 13:53:10.931 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-10-01 13:53:22.509
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-01 13:53:22.510
+!MESSAGE Log4j2 initialized with config file /home/cybersenya/STM32CubeIDE/lab1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-01 13:53:29.352
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-01 13:59:56.719
+!MESSAGE Indexed 'lab1' (19 sources, 81 headers) in 1.75 sec: 4,581 declarations; 19,506 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0083%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.462
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.474
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.485
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.496
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.519
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:10:41.542
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.388
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.400
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.412
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.424
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.447
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:11:34.469
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:15.935
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:15.947
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:15.958
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:15.969
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:15.992
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:16.013
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.086
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.098
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.109
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.120
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.142
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:12:46.168
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.686
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.700
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.714
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.727
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.753
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 14:30:01.777
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2026-10-01 15:21:35.761 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-10-01 15:21:42.427
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-01 15:21:42.427
+!MESSAGE Log4j2 initialized with config file /home/cybersenya/STM32CubeIDE/lab1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-01 15:21:45.833
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.355
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.368
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.381
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.394
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.419
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-01 15:24:05.444
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2026-10-09 12:39:13.230 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-10-09 12:39:16.272
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-10-09 12:39:18.286
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-09 12:39:18.286
+!MESSAGE Log4j2 initialized with config file /home/cybersenya/STM32CubeIDE/lab1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-09 12:39:21.533
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.229
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.244
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.258
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.270
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.296
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 12:50:57.320
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.714
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:172)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.726
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isLowPowerDebugModeEnabled(MCUOpenOCDScriptInterpreter.java:176)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2667)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.738
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:188)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.760
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isStopWatchDogOnHaltEnabled(MCUOpenOCDScriptInterpreter.java:192)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2672)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.787
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.openocd 4 0 2026-10-09 14:29:25.814
+!MESSAGE tcl.lang.TclVarException
+!STACK 0
+tcl.lang.TclVarException
+	at tcl.lang.Var.lookupVar(Var.java:673)
+	at tcl.lang.Var.getVar(Var.java:898)
+	at tcl.lang.Interp.getVar(Interp.java:1513)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.run(MCUOpenOCDScriptInterpreter.java:124)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getVariableValue(MCUOpenOCDScriptInterpreter.java:68)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.assertConditions(MCUOpenOCDScriptInterpreter.java:274)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.isValid(MCUOpenOCDScriptInterpreter.java:255)
+	at com.st.stm32cube.ide.mcu.debug.openocd.engine.interpreter.MCUOpenOCDScriptInterpreter.getResetMode(MCUOpenOCDScriptInterpreter.java:220)
+	at com.st.stm32cube.ide.mcu.debug.openocd.OpenOCDDebugHardware.logAnalytics(OpenOCDDebugHardware.java:2677)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

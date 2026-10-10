@@ -1,0 +1,8 @@
+../Core/Src/uart_drv.c:19:6:uart_init	1
+../Core/Src/uart_drv.c:27:6:uart_set_mode	2
+../Core/Src/uart_drv.c:44:13:uart_get_mode	1
+../Core/Src/uart_drv.c:49:5:uart_send_byte	6
+../Core/Src/uart_drv.c:68:5:uart_send_str	3
+../Core/Src/uart_drv.c:79:5:uart_recv_byte	2
+../Core/Src/uart_drv.c:89:6:HAL_UART_RxCpltCallback	2
+../Core/Src/uart_drv.c:96:6:HAL_UART_TxCpltCallback	3

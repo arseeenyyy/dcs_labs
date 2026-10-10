@@ -1,0 +1,10 @@
+../Core/Src/my_uart.c:34:13:gpio_set_af	32	static
+../Core/Src/my_uart.c:70:13:nvic_enable_irq	16	static
+../Core/Src/my_uart.c:74:13:nvic_disable_irq	16	static
+../Core/Src/my_uart.c:83:6:my_uart_init	16	static
+../Core/Src/my_uart.c:118:6:my_uart_set_mode	16	static
+../Core/Src/my_uart.c:139:16:my_uart_get_mode	4	static
+../Core/Src/my_uart.c:144:5:my_uart_send_byte	24	static
+../Core/Src/my_uart.c:167:5:my_uart_send_str	24	static
+../Core/Src/my_uart.c:178:5:my_uart_recv_byte	16	static
+../Core/Src/my_uart.c:196:6:my_uart_irq_handler	16	static
